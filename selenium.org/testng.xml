@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none">
+  <test name="Defferent tesing Feature Test">
+  
+  
+  <parameter name="url" value="http://newtours.demoaut.com"/>
+  <parameter name="firstName" value="Chintha"/>
+  <parameter name="lastName" value="sreekanth"/>
+  <parameter name="phone" value="9959095525"/>
+  <parameter name="email" value="crk786@gmail.com"/>
+  
+  
+  
+  <classes>  
+  		<class name = "selenium.testNG.GooglePage"/>
+  		<class name = "selenium.testNG.GoogleTest"/>
+  		<class name = "testNGConcepts.ParameterTest"/>
+   </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

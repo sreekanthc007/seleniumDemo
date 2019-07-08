@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="uname" value="sreekanth"/>
+  <parameter name="pwd" value="995909558"/>
+  <test name="test1(failed)">
+    <parameter name="uname" value="sreekanth"/>
+    <parameter name="pwd" value="995909558"/>
+    <classes>
+      <class name="testNGConcepts.TestNGDemo">
+        <methods>
+          <include name="title"/>
+          <include name="launchChrome"/>
+          <include name="quite"/>
+        </methods>
+      </class> <!-- testNGConcepts.TestNGDemo -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

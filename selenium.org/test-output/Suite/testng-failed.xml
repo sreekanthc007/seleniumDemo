@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="firstName" value="Chintha"/>
+  <parameter name="lastName" value="sreekanth"/>
+  <parameter name="phone" value="9959095525"/>
+  <parameter name="url" value="http://newtours.demoaut.com"/>
+  <parameter name="email" value="crk786@gmail.com"/>
+  <test name="Defferent tesing Feature Test(failed)" parallel="none">
+    <parameter name="firstName" value="Chintha"/>
+    <parameter name="lastName" value="sreekanth"/>
+    <parameter name="phone" value="9959095525"/>
+    <parameter name="url" value="http://newtours.demoaut.com"/>
+    <parameter name="email" value="crk786@gmail.com"/>
+    <classes>
+      <class name="testNGConcepts.ParameterTest">
+        <methods>
+          <include name="newtoursReg"/>
+        </methods>
+      </class> <!-- testNGConcepts.ParameterTest -->
+    </classes>
+  </test> <!-- Defferent tesing Feature Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
